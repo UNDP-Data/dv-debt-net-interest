@@ -43,7 +43,7 @@ export function DebtInterestBars(props: Props) {
             <Select
               options={categories.map(d => ({
                 label: d.description,
-                value: d.category,
+                value: d.description,
               }))}
               className='undp-select'
               style={{ width: '100%' }}

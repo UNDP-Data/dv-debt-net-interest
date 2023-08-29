@@ -1,18 +1,18 @@
 category,description,source,group
-All developing,All developing (DE),,
+All developing,All developing,,
 LIC,Low income (LIC),WB,Income
 LMC,Lower-middle income (LMC),WB,Income
 UMC,Upper-middle income (UMC),WB,Income
-MIC,Middle-income (MIC),WB,Income
+MIC,Middle income (MIC),WB,Income
 LDC,Least developed (LDC),UN,
-SIDS,Small Island Developing (SIDS),UN,
-EM,Emerging Market (EM),IMF,
-LIDC,Low-income developing (LIDC),IMF,
-Poorest (IDA eligible),IDA eligible countries ,,
+SIDS,Small island developing (SIDS),UN,
+EM,Emerging market (EM),IMF,
+LIDC,Low income developing (LIDC),IMF,
+Poorest (IDA eligible),Poorest,,
 HIPC,Heavily indebted poor (HIPC),,
-South Asia,South Asia,,Geographical
-Europe & Central Asia,Europe & Central Asia,,Geographical
-Middle East & North Africa,Middle East & North Africa,,Geographical
-East Asia & Pacific,East Asia & Pacific,,Geographical
-Latin America & Caribbean,Latin America & Caribbean,,Geographical
-Sub-Saharan Africa,Sub-Saharan Africa,,Geographical
+South Asia,South Asia (SA),,Geographical
+Europe & Central Asia,Europe & Central Asia (ECA),,Geographical
+Middle East & North Africa,Middle East and North Africa (MENA),,Geographical
+East Asia & Pacific,East Asia & Pacific (EAP),,Geographical
+Latin America & Caribbean,Latin America & Caribbean (LAC),,Geographical
+Sub-Saharan Africa,Sub-Saharan Africa (SSA),,Geographical

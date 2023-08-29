@@ -14,28 +14,13 @@ interface Props {
   svgWidth: number;
   svgHeight: number;
 }
-/*
-const XTickText = styled.text`
-  font-size: 12px;
-  @media (max-width: 980px) {
-    font-size: 10px;
-  }
-  @media (max-width: 600px) {
-    font-size: 9px;
-  }
-  @media (max-width: 420px) {
-    display: none;
-  }
-`; */
 
-/// two lines for mean and median
 export function Graph(props: Props) {
   const { data, option, svgWidth, svgHeight } = props;
   const periods = ['2011-2013', '2021-2023'];
   const margin = { top: 20, right: 30, bottom: 50, left: 80 };
   const graphWidth = svgWidth - margin.left - margin.right;
   const graphHeight = svgHeight - margin.top - margin.bottom;
-  // const [hoveredYear, setHoveredYear] = useState<undefined | string>(undefined);
   const minParam = 0;
   const valueArray = data
     .filter(d => d.option === option)[0]
@@ -98,6 +83,14 @@ export function Graph(props: Props) {
                           fill={UNDPColorModule.categoricalColors.colors[j]}
                           opacity={0.8}
                         />
+                        <text
+                          className='barLabel'
+                          x={x(d[0])}
+                          dx={x.bandwidth() / 4}
+                          y={y(d[1]) - 5}
+                        >
+                          {`${d[1]}${option === 'Percentage' ? '%' : ''}`}
+                        </text>
                       </g>
                     ))}
                 </g>

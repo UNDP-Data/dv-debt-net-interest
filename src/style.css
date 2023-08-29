@@ -26,6 +26,10 @@
   font-size: 1rem;
   color: var(--gray-500);
 }
+.barLabel{
+  text-anchor:middle;
+  font-size: 14px;
+}
 /* color legend styles for charts */
 .legend-container{
   display: flex;

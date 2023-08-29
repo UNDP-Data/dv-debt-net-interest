@@ -24,6 +24,7 @@ function App() {
         period: d.period,
         percentages: Object.entries(d).filter(k => Number(k[0])),
       }));
+      // const categories = [...new Set(data.map(d => d.region))];
       setDebtNetInterest(newData as any);
       setCategoriesData(categories as any);
     });
