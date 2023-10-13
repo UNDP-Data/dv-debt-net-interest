@@ -1,69 +1,69 @@
 region,option,period,5,10,15,20,25,30,35,40
-All developing,Number,2021-2023,77,46,26,14,10,7,4,3
-All developing,Percentage,2021-2023,61.6,36.8,20.8,11.2,8,5.6,3.2,2.4
+All developing,Number,2021-2023,79,48,25,14,10,6,4,3
+All developing,Percentage,2021-2023,62.6984127,38.0952381,19.84126984,11.11111111,7.936507937,4.761904762,3.174603175,2.380952381
 All developing,Number,2011-2013,53,28,12,7,5,4,2,0
-All developing,Percentage,2011-2013,42.7,22.6,9.7,5.6,4,3.2,1.6,0
-Low income (LIC),Number,2021-2023,18,9,4,4,2,1,0,0
-Low income (LIC),Percentage,2021-2023,72,36,16,16,8,4,0,0
+All developing,Percentage,2011-2013,41.73228346,22.04724409,9.448818898,5.511811024,3.937007874,3.149606299,1.57480315,0
+Low income (LIC),Number,2021-2023,18,9,4,3,2,0,0,0
+Low income (LIC),Percentage,2021-2023,72,36,16,12,8,0,0,0
 Low income (LIC),Number,2011-2013,12,5,2,0,0,0,0,0
-Low income (LIC),Percentage,2011-2013,48,20,8,0,0,0,0,0
-Lower-middle income (LMC),Number,2021-2023,30,20,12,9,7,5,4,3
-Lower-middle income (LMC),Percentage,2021-2023,58.8,39.2,23.5,17.6,13.7,9.8,7.8,5.9
+Low income (LIC),Percentage,2011-2013,46.15384615,19.23076923,7.692307692,0,0,0,0,0
+Lower-middle income (LMC),Number,2021-2023,32,21,12,9,7,5,4,3
+Lower-middle income (LMC),Percentage,2021-2023,61.53846154,40.38461538,23.07692308,17.30769231,13.46153846,9.615384615,7.692307692,5.769230769
 Lower-middle income (LMC),Number,2011-2013,21,10,7,6,4,3,2,0
-Lower-middle income (LMC),Percentage,2011-2013,41.2,19.6,13.7,11.8,7.8,5.9,3.9,0
-Upper-middle income (UMC),Number,2021-2023,29,17,10,1,1,1,0,0
-Upper-middle income (UMC),Percentage,2021-2023,59.2,34.7,20.4,2,2,2,0,0
+Lower-middle income (LMC),Percentage,2011-2013,40.38461538,19.23076923,13.46153846,11.53846154,7.692307692,5.769230769,3.846153846,0
+Upper-middle income (UMC),Number,2021-2023,29,18,9,2,1,1,0,0
+Upper-middle income (UMC),Percentage,2021-2023,59.18367347,36.73469388,18.36734694,4.081632653,2.040816327,2.040816327,0,0
 Upper-middle income (UMC),Number,2011-2013,20,13,3,1,1,1,0,0
-Upper-middle income (UMC),Percentage,2011-2013,41.7,27.1,6.3,2.1,2.1,2.1,0,0
-Middle income (MIC),Number,2021-2023,59,37,22,10,8,6,4,3
-Middle income (MIC),Percentage,2021-2023,59,37,22,10,8,6,4,3
+Upper-middle income (UMC),Percentage,2011-2013,40.81632653,26.53061224,6.12244898,2.040816327,2.040816327,2.040816327,0,0
+Middle income (MIC),Number,2021-2023,61,39,21,11,8,6,4,3
+Middle income (MIC),Percentage,2021-2023,60.3960396,38.61386139,20.79207921,10.89108911,7.920792079,5.940594059,3.96039604,2.97029703
 Middle income (MIC),Number,2011-2013,41,23,10,7,5,4,2,0
-Middle income (MIC),Percentage,2011-2013,41.4,23.2,10.1,7.1,5.1,4,2,0
-Least developed (LDC),Number,2021-2023,24,15,7,6,2,1,0,0
-Least developed (LDC),Percentage,2021-2023,54.5,34.1,15.9,13.6,4.5,2.3,0,0
+Middle income (MIC),Percentage,2011-2013,40.59405941,22.77227723,9.900990099,6.930693069,4.95049505,3.96039604,1.98019802,0
+Least developed (LDC),Number,2021-2023,25,15,7,5,2,0,0,0
+Least developed (LDC),Percentage,2021-2023,56.81818182,34.09090909,15.90909091,11.36363636,4.545454545,0,0,0
 Least developed (LDC),Number,2011-2013,17,6,3,0,0,0,0,0
-Least developed (LDC),Percentage,2011-2013,39.5,14,7,0,0,0,0,0
-Small island developing (SIDS),Number,2021-2023,13,7,4,0,0,0,0,0
-Small island developing (SIDS),Percentage,2021-2023,52,28,16,0,0,0,0,0
+Least developed (LDC),Percentage,2011-2013,37.77777778,13.33333333,6.666666667,0,0,0,0,0
+Small island developing (SIDS),Number,2021-2023,13,8,4,0,0,0,0,0
+Small island developing (SIDS),Percentage,2021-2023,52,32,16,0,0,0,0,0
 Small island developing (SIDS),Number,2011-2013,10,6,2,1,1,1,0,0
-Small island developing (SIDS),Percentage,2011-2013,41.7,25,8.3,4.2,4.2,4.2,0,0
-Emerging market (EM),Number,2021-2023,45,26,17,6,5,4,3,2
-Emerging market (EM),Percentage,2021-2023,67.2,38.8,25.4,9,7.5,6,4.5,3
+Small island developing (SIDS),Percentage,2011-2013,40,24,8,4,4,4,0,0
+Emerging market (EM),Number,2021-2023,46,28,16,7,5,4,3,2
+Emerging market (EM),Percentage,2021-2023,67.64705882,41.17647059,23.52941176,10.29411765,7.352941176,5.882352941,4.411764706,2.941176471
 Emerging market (EM),Number,2011-2013,31,20,8,6,5,4,2,0
-Emerging market (EM),Percentage,2011-2013,46.3,29.9,11.9,9,7.5,6,3,0
-Low income developing (LIDC),Number,2021-2023,32,20,9,8,5,3,1,1
-Low income developing (LIDC),Percentage,2021-2023,55.2,34.5,15.5,13.8,8.6,5.2,1.7,1.7
+Emerging market (EM),Percentage,2011-2013,45.58823529,29.41176471,11.76470588,8.823529412,7.352941176,5.882352941,2.941176471,0
+Low income developing (LIDC),Number,2021-2023,33,20,9,7,5,2,1,1
+Low income developing (LIDC),Percentage,2021-2023,56.89655172,34.48275862,15.51724138,12.06896552,8.620689655,3.448275862,1.724137931,1.724137931
 Low income developing (LIDC),Number,2011-2013,22,8,4,1,0,0,0,0
-Low income developing (LIDC),Percentage,2011-2013,38.6,14,7,1.8,0,0,0,0
-Poorest,Number,2021-2023,40,25,12,10,7,5,3,2
-Poorest,Percentage,2021-2023,56.3,35.2,16.9,14.1,9.9,7,4.2,2.8
+Low income developing (LIDC),Percentage,2011-2013,37.28813559,13.55932203,6.779661017,1.694915254,0,0,0,0
+Poorest,Number,2021-2023,41,25,12,9,7,4,3,3
+Poorest,Percentage,2021-2023,57.74647887,35.21126761,16.90140845,12.67605634,9.85915493,5.633802817,4.225352113,4.225352113
 Poorest,Number,2011-2013,30,13,6,3,2,2,1,0
-Poorest,Percentage,2011-2013,42.9,18.6,8.6,4.3,2.9,2.9,1.4,0
-Heavily indebted poor (HIPC),Number,2021-2023,25,13,5,5,3,2,1,1
-Heavily indebted poor (HIPC),Percentage,2021-2023,71.4,37.1,14.3,14.3,8.6,5.7,2.9,2.9
+Poorest,Percentage,2011-2013,41.66666667,18.05555556,8.333333333,4.166666667,2.777777778,2.777777778,1.388888889,0
+Heavily indebted poor (HIPC),Number,2021-2023,25,13,5,4,3,1,1,1
+Heavily indebted poor (HIPC),Percentage,2021-2023,69.44444444,36.11111111,13.88888889,11.11111111,8.333333333,2.777777778,2.777777778,2.777777778
 Heavily indebted poor (HIPC),Number,2011-2013,13,4,2,1,0,0,0,0
-Heavily indebted poor (HIPC),Percentage,2011-2013,36.1,11.1,5.6,2.8,0,0,0,0
-South Asia (SA),Number,2021-2023,5,5,4,4,3,2,2,1
-South Asia (SA),Percentage,2021-2023,71.4,71.4,57.1,57.1,42.9,28.6,28.6,14.3
+Heavily indebted poor (HIPC),Percentage,2011-2013,36.11111111,11.11111111,5.555555556,2.777777778,0,0,0,0
+South Asia (SA),Number,2021-2023,6,5,4,4,3,2,2,2
+South Asia (SA),Percentage,2021-2023,75,62.5,50,50,37.5,25,25,25
 South Asia (SA),Number,2011-2013,6,4,4,3,2,2,1,0
 South Asia (SA),Percentage,2011-2013,75,50,50,37.5,25,25,12.5,0
 Europe & Central Asia (ECA),Number,2021-2023,4,1,0,0,0,0,0,0
-Europe & Central Asia (ECA),Percentage,2021-2023,22.2,5.6,0,0,0,0,0,0
+Europe & Central Asia (ECA),Percentage,2021-2023,22.22222222,5.555555556,0,0,0,0,0,0
 Europe & Central Asia (ECA),Number,2011-2013,2,1,0,0,0,0,0,0
-Europe & Central Asia (ECA),Percentage,2011-2013,11.1,5.6,0,0,0,0,0,0
-Middle East and North Africa (MENA),Number,2021-2023,6,5,3,1,1,1,1,1
-Middle East and North Africa (MENA),Percentage,2021-2023,60,50,30,10,10,10,10,10
+Europe & Central Asia (ECA),Percentage,2011-2013,11.11111111,5.555555556,0,0,0,0,0,0
+Middle East and North Africa (MENA),Number,2021-2023,7,6,3,1,1,1,1,0
+Middle East and North Africa (MENA),Percentage,2021-2023,63.63636364,54.54545455,27.27272727,9.090909091,9.090909091,9.090909091,9.090909091,0
 Middle East and North Africa (MENA),Number,2011-2013,6,4,3,2,2,1,1,0
-Middle East and North Africa (MENA),Percentage,2011-2013,60,40,30,20,20,10,10,0
+Middle East and North Africa (MENA),Percentage,2011-2013,54.54545455,36.36363636,27.27272727,18.18181818,18.18181818,9.090909091,9.090909091,0
 East Asia & Pacific (EAP),Number,2021-2023,10,6,2,0,0,0,0,0
 East Asia & Pacific (EAP),Percentage,2021-2023,50,30,10,0,0,0,0,0
 East Asia & Pacific (EAP),Number,2011-2013,6,2,0,0,0,0,0,0
-East Asia & Pacific (EAP),Percentage,2011-2013,31.6,10.5,0,0,0,0,0,0
-Latin America & Caribbean (LAC),Number,2021-2023,18,10,7,1,1,1,0,0
-Latin America & Caribbean (LAC),Percentage,2021-2023,78.3,43.5,30.4,4.3,4.3,4.3,0,0
+East Asia & Pacific (EAP),Percentage,2011-2013,30,10,0,0,0,0,0,0
+Latin America & Caribbean (LAC),Number,2021-2023,18,10,6,2,1,1,0,0
+Latin America & Caribbean (LAC),Percentage,2021-2023,78.26086957,43.47826087,26.08695652,8.695652174,4.347826087,4.347826087,0,0
 Latin America & Caribbean (LAC),Number,2011-2013,13,9,3,1,1,1,0,0
-Latin America & Caribbean (LAC),Percentage,2011-2013,56.5,39.1,13,4.3,4.3,4.3,0,0
-Sub-Saharan Africa (SSA),Number,2021-2023,34,19,10,8,5,3,1,1
-Sub-Saharan Africa (SSA),Percentage,2021-2023,72.3,40.4,21.3,17,10.6,6.4,2.1,2.1
+Latin America & Caribbean (LAC),Percentage,2011-2013,56.52173913,39.13043478,13.04347826,4.347826087,4.347826087,4.347826087,0,0
+Sub-Saharan Africa (SSA),Number,2021-2023,34,20,10,7,5,2,1,1
+Sub-Saharan Africa (SSA),Percentage,2021-2023,73.91304348,43.47826087,21.73913043,15.2173913,10.86956522,4.347826087,2.173913043,2.173913043
 Sub-Saharan Africa (SSA),Number,2011-2013,20,8,2,1,0,0,0,0
-Sub-Saharan Africa (SSA),Percentage,2011-2013,43.5,17.4,4.3,2.2,0,0,0,0
+Sub-Saharan Africa (SSA),Percentage,2011-2013,42.55319149,17.0212766,4.255319149,2.127659574,0,0,0,0

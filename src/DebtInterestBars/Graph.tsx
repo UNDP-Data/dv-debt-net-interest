@@ -37,7 +37,10 @@ export function Graph(props: Props) {
     .range([graphHeight, 0])
     .nice();
 
+  const yAxisTicks = y.ticks().filter(tick => Number.isInteger(tick));
+
   const yAxis = axisLeft(y as any)
+    .tickValues(yAxisTicks)
     .tickSize(-graphWidth)
     .tickFormat((d: any) => `${d}${option === 'Percentage' ? '%' : ''}`);
   const xAxis = axisBottom(x)
@@ -89,7 +92,9 @@ export function Graph(props: Props) {
                           dx={x.bandwidth() / 4}
                           y={y(d[1]) - 5}
                         >
-                          {`${d[1]}${option === 'Percentage' ? '%' : ''}`}
+                          {option === 'Percentage'
+                            ? `${Number(d[1]).toFixed(1)}%`
+                            : d[1]}
                         </text>
                       </g>
                     ))}
