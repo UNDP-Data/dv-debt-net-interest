@@ -13,13 +13,13 @@ function App() {
   const [categoriesData, setCategoriesData] = useState<
     CategoryData[] | undefined
   >(undefined);
-  const dataurl =
+  const dataUrl1 =
     'https://raw.githubusercontent.com/UNDP-Data/dv-debt-net-interest/main/public/data/';
-  // const dataurl = './data/';
+  // const dataUrl1 = './data/';
   useEffect(() => {
     Promise.all([
-      csv(`${dataurl}debtNetInterest.csv`),
-      csv(`${dataurl}categories.csv`),
+      csv(`${dataUrl1}debtNetInterest.csv`),
+      csv(`${dataUrl1}categories.csv`),
     ]).then(([data, categories]) => {
       const newData = data.map(d => ({
         region: d.region,
