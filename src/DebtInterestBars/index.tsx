@@ -11,7 +11,7 @@ interface Props {
   categories: CategoryData[];
 }
 
-const GraphDiv = styled.div`
+const GraphDiv1 = styled.div`
   @media (max-width: 960px) {
     height: 70vw;
     max-height: 31.25rem;
@@ -22,18 +22,19 @@ const numberPercentOptions = ['Number', 'Percentage'];
 export function DebtInterestBars(props: Props) {
   const { data, categories } = props;
   const [totalPercentSelection, setTotalPercentSelection] = useState('Number');
-  const [categorySelection, setCategorySelection] = useState('All developing');
-  const [svgWidth, setSvgWidth] = useState(0);
-  const [svgHeight, setSvgHeight] = useState(0);
-  const graphDiv = useRef<HTMLDivElement>(null);
+  const [categorySelection1, setCategorySelection1] =
+    useState('All developing');
+  const [svgWidth1, setSvgWidth1] = useState(0);
+  const [svgHeight1, setSvgHeight1] = useState(0);
+  const graphDiv1 = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (graphDiv.current) {
-      setSvgHeight(graphDiv.current.clientHeight);
-      setSvgWidth(graphDiv.current.clientWidth);
+    if (graphDiv1.current) {
+      setSvgHeight1(graphDiv1.current.clientHeight);
+      setSvgWidth1(graphDiv1.current.clientWidth);
     }
-  }, [graphDiv]);
+  }, [graphDiv1]);
   return (
-    <GraphDiv ref={graphDiv}>
+    <GraphDiv1 ref={graphDiv1}>
       <div>
         <div className='margin-bottom-05'>
           <div>
@@ -46,9 +47,9 @@ export function DebtInterestBars(props: Props) {
               className='undp-select'
               style={{ width: '100%' }}
               onChange={el => {
-                setCategorySelection(el);
+                setCategorySelection1(el);
               }}
-              value={categorySelection}
+              value={categorySelection1}
             />
           </div>
         </div>
@@ -103,20 +104,20 @@ export function DebtInterestBars(props: Props) {
             </div>
           </div>
         </div>
-        {svgHeight && svgWidth ? (
+        {svgHeight1 && svgWidth1 ? (
           <Graph
             data={data.filter(
               d =>
-                d.region === categorySelection &&
+                d.region === categorySelection1 &&
                 d.option === totalPercentSelection,
             )}
             option={totalPercentSelection}
-            svgWidth={svgWidth}
-            svgHeight={svgHeight}
+            svgWidth1={svgWidth1}
+            svgHeight1={svgHeight1}
           />
         ) : null}
         <p className='source'>Source:</p>
       </div>
-    </GraphDiv>
+    </GraphDiv1>
   );
 }

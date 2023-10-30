@@ -11,16 +11,16 @@ import { DebtNetInterestType } from '../Types';
 interface Props {
   data: DebtNetInterestType[];
   option: string;
-  svgWidth: number;
-  svgHeight: number;
+  svgWidth1: number;
+  svgHeight1: number;
 }
 
 export function Graph(props: Props) {
-  const { data, option, svgWidth, svgHeight } = props;
+  const { data, option, svgWidth1, svgHeight1 } = props;
   const periods = ['2011-2013', '2021-2023'];
   const margin = { top: 20, right: 30, bottom: 50, left: 80 };
-  const graphWidth = svgWidth - margin.left - margin.right;
-  const graphHeight = svgHeight - margin.top - margin.bottom;
+  const graphWidth = svgWidth1 - margin.left - margin.right;
+  const graphHeight = svgHeight1 - margin.top - margin.bottom;
   const minParam = 0;
   const valueArray = data
     .filter(d => d.option === option)[0]
@@ -65,7 +65,7 @@ export function Graph(props: Props) {
         <svg
           width='100%'
           height='100%'
-          viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+          viewBox={`0 0 ${svgWidth1} ${svgHeight1}`}
           id='debtNetInterest'
         >
           <g transform={`translate(${margin.left},${margin.top})`}>
