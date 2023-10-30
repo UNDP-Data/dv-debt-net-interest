@@ -9,21 +9,21 @@ import UNDPColorModule from 'undp-viz-colors';
 import { DebtNetInterestType } from '../Types';
 
 interface Props {
-  data: DebtNetInterestType[];
-  option: string;
+  data1: DebtNetInterestType[];
+  option1: string;
   svgWidth1: number;
   svgHeight1: number;
 }
 
 export function Graph(props: Props) {
-  const { data, option, svgWidth1, svgHeight1 } = props;
+  const { data1, option1, svgWidth1, svgHeight1 } = props;
   const periods = ['2011-2013', '2021-2023'];
   const margin = { top: 20, right: 30, bottom: 50, left: 80 };
   const graphWidth = svgWidth1 - margin.left - margin.right;
   const graphHeight = svgHeight1 - margin.top - margin.bottom;
   const minParam = 0;
-  const valueArray = data
-    .filter(d => d.option === option)[0]
+  const valueArray = data1
+    .filter(d => d.option === option1)[0]
     .percentages.map(k => Number(k[1]));
   const maxParam = max(valueArray) ? max(valueArray) : 0;
   const xDomain = ['5', '10', '15', '20', '25', '30', '35', '40'];
@@ -42,7 +42,7 @@ export function Graph(props: Props) {
   const yAxis = axisLeft(y as any)
     .tickValues(yAxisTicks)
     .tickSize(-graphWidth)
-    .tickFormat((d: any) => `${d}${option === 'Percentage' ? '%' : ''}`);
+    .tickFormat((d: any) => `${d}${option1 === 'Percentage' ? '%' : ''}`);
   const xAxis = axisBottom(x)
     .tickSize(0)
     .tickSizeOuter(0)
@@ -58,7 +58,7 @@ export function Graph(props: Props) {
       .attr('dy', '-4px')
       .attr('x', '-4px')
       .attr('text-anchor', 'end');
-  }, [data]);
+  }, [data1]);
   return (
     <div>
       {valueArray.length > 0 ? (
@@ -74,7 +74,7 @@ export function Graph(props: Props) {
             <g>
               {periods.map((k, j) => (
                 <g key={j} transform={`translate(${j * 35},0)`}>
-                  {data
+                  {data1
                     .filter(h => h.period === k)[0]
                     .percentages.map((d, i) => (
                       <g key={i} className={`percent${x(d[0])}_value${d[1]}`}>
@@ -92,7 +92,7 @@ export function Graph(props: Props) {
                           dx={x.bandwidth() / 4}
                           y={y(d[1]) - 5}
                         >
-                          {option === 'Percentage'
+                          {option1 === 'Percentage'
                             ? `${Number(d[1]).toFixed(1)}%`
                             : d[1]}
                         </text>
@@ -116,7 +116,7 @@ export function Graph(props: Props) {
             transform='rotate(-90)'
             textAnchor='middle'
           >
-            {option === 'Percentage'
+            {option1 === 'Percentage'
               ? 'Percentage of countries'
               : 'Number of countries'}
           </text>

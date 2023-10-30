@@ -35,7 +35,10 @@ function App() {
   return (
     <div className='undp-container'>
       {debtNetInterest && categoriesData1 ? (
-        <DebtInterestBars data={debtNetInterest} categories={categoriesData1} />
+        <DebtInterestBars
+          data1={debtNetInterest}
+          categories1={categoriesData1}
+        />
       ) : null}
     </div>
   );

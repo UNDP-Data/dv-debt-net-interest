@@ -7,8 +7,8 @@ import { DebtNetInterestType, CategoryData } from '../Types';
 import { Graph } from './Graph';
 
 interface Props {
-  data: DebtNetInterestType[];
-  categories: CategoryData[];
+  data1: DebtNetInterestType[];
+  categories1: CategoryData[];
 }
 
 const GraphDiv1 = styled.div`
@@ -20,7 +20,7 @@ const GraphDiv1 = styled.div`
 const numberPercentOptions = ['Number', 'Percentage'];
 
 export function DebtInterestBars(props: Props) {
-  const { data, categories } = props;
+  const { data1, categories1 } = props;
   const [totalPercentSelection, setTotalPercentSelection] = useState('Number');
   const [categorySelection1, setCategorySelection1] =
     useState('All developing');
@@ -40,7 +40,7 @@ export function DebtInterestBars(props: Props) {
           <div>
             <p className='label undp-typography'>Select a category</p>
             <Select
-              options={categories.map(d => ({
+              options={categories1.map(d => ({
                 label: d.description,
                 value: d.description,
               }))}
@@ -106,12 +106,12 @@ export function DebtInterestBars(props: Props) {
         </div>
         {svgHeight1 && svgWidth1 ? (
           <Graph
-            data={data.filter(
+            data1={data1.filter(
               d =>
                 d.region === categorySelection1 &&
                 d.option === totalPercentSelection,
             )}
-            option={totalPercentSelection}
+            option1={totalPercentSelection}
             svgWidth1={svgWidth1}
             svgHeight1={svgHeight1}
           />
