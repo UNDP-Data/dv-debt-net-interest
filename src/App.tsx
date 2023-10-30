@@ -10,7 +10,7 @@ function App() {
   const [debtNetInterest, setDebtNetInterest] = useState<
     DebtNetInterestType[] | undefined
   >();
-  const [categoriesData, setCategoriesData] = useState<
+  const [categoriesData1, setCategoriesData1] = useState<
     CategoryData[] | undefined
   >(undefined);
   const dataUrl1 =
@@ -29,13 +29,13 @@ function App() {
       }));
       // const categories = [...new Set(data.map(d => d.region))];
       setDebtNetInterest(newData as any);
-      setCategoriesData(categories as any);
+      setCategoriesData1(categories as any);
     });
   }, []);
   return (
     <div className='undp-container'>
-      {debtNetInterest && categoriesData ? (
-        <DebtInterestBars data={debtNetInterest} categories={categoriesData} />
+      {debtNetInterest && categoriesData1 ? (
+        <DebtInterestBars data={debtNetInterest} categories={categoriesData1} />
       ) : null}
     </div>
   );

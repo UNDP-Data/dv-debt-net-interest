@@ -12,8 +12,6 @@ interface Props {
 }
 
 const GraphDiv = styled.div`
-  flex-grow: 1;
-  height: 800px;
   @media (max-width: 960px) {
     height: 70vw;
     max-height: 31.25rem;
@@ -35,7 +33,7 @@ export function DebtInterestBars(props: Props) {
     }
   }, [graphDiv]);
   return (
-    <GraphDiv ref={graphDiv} style={{ maxWidth: '900px', maxHeight: '600px' }}>
+    <GraphDiv ref={graphDiv}>
       <div>
         <div className='margin-bottom-05'>
           <div>
