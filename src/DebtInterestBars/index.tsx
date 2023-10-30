@@ -13,7 +13,7 @@ interface Props {
 
 const GraphDiv1 = styled.div`
   @media (max-width: 960px) {
-    height: 70vw;
+    height: 100%;
     max-height: 31.25rem;
   }
 `;
