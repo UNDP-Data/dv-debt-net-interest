@@ -13,8 +13,7 @@ interface Props {
 
 const GraphDiv1 = styled.div`
   @media (max-width: 960px) {
-    height: 100%;
-    max-height: 31.25rem;
+    max-height: 600px;
   }
 `;
 const numberPercentOptions = ['Number', 'Percentage'];
@@ -37,21 +36,19 @@ export function DebtInterestBars(props: Props) {
     <GraphDiv1 ref={graphDiv1}>
       <div>
         <div className='margin-bottom-05'>
-          <div>
-            <p className='label undp-typography'>Select a category</p>
-            <Select
-              options={categories1.map(d => ({
-                label: d.description,
-                value: d.description,
-              }))}
-              className='undp-select'
-              style={{ width: '100%' }}
-              onChange={el => {
-                setCategorySelection1(el);
-              }}
-              value={categorySelection1}
-            />
-          </div>
+          <p className='label undp-typography'>Select a category</p>
+          <Select
+            options={categories1.map(d => ({
+              label: d.description,
+              value: d.description,
+            }))}
+            className='undp-select'
+            style={{ width: '100%' }}
+            onChange={el => {
+              setCategorySelection1(el);
+            }}
+            value={categorySelection1}
+          />
         </div>
       </div>
       <div className='chart-container'>
